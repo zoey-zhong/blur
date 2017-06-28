@@ -1,0 +1,445 @@
+*{padding: 0;
+	margin: 0;
+	border: 0;
+}
+.nav1{
+	height: 98px;
+}
+.navbar-brand{
+	height: 98px;
+	transition: all 0.03s linear;
+}
+.navbar-logo{
+	height: 100%;
+	width:160px;
+	background-image: url(../img/blurr_logo_sprite_2.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 0px -40px;
+	transition: all 0.1s linear;
+	
+}
+#navbar-collapse{
+	
+	color: gray;
+	
+}
+.xs-icon span{
+	background: black;
+}
+#navbar-collapse ul li{
+	margin-right: 25px;
+	padding-bottom: 10px;
+	padding-top: 50px;
+}
+#navbar-collapse ul li:hover{
+	border-bottom: 1px solid teal;
+}
+.change{
+	background: #000000;
+	
+}
+.change2{
+	padding-top:15px!important;
+	color: white;
+}
+.change3{
+	background-position: 0 0;
+}
+.change4{
+	height: 70px;
+	
+}
+
+header{
+	position: relative;
+	background: url(../img/coachella_2.jpg) no-repeat;
+	background-size: cover;
+}
+.header-txt{
+	position: absolute;
+	top:30px;
+	left: 50%;
+	transform: translateX(-50%);text-align: center;
+	
+}
+
+.phone{
+	height: 400px;
+	width:180px;
+	position: absolute;
+	top:99px;
+	left: 50%;
+	transform: translateX(-50%);
+	position: relative;		
+}
+.phone img:nth-child(1){
+	width: 100%;
+	
+}
+.phoneimg{
+	position: absolute;
+	top:44px;
+	left: 11px;
+	z-index: 100;
+	width: 88%;
+}
+.head-btn{
+	height: 55px;
+	width:150px;
+	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	bottom:50px;
+	transform: translateX(-50%);
+	
+}
+.down{
+	width: 40px;
+	position: absolute;
+	left: 50%;
+	bottom:20px;
+	transform: translateX(-50%);	
+}
+.down>img{
+	width: 100%;
+}
+
+#mymodal{
+	padding: 20px;
+	background: white;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	border-radius: 20px;
+	overflow: hidden;
+}
+#mymodal input{
+	width:40%;
+	height:60px;
+	border:1px solid lightgray;
+	border-radius:10px;
+	text-align: center;
+}
+#mymodal button{
+	margin-top: 20px;
+	width:40%;
+	height:60px;
+	border:1px solid lightgray;
+	border-radius:10px;
+	text-align: center;
+}
+.section1{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.section1 img{
+	width: 20%;
+	margin: 20px;
+}
+.section2{
+	background: lightgray;
+	padding: 100px 0;
+	text-align: center;
+}
+.section2 img{
+	width: 60%;
+}
+
+.section2-txt{
+	padding: 200px 0;
+}
+.section3{
+	text-align: center;
+	border-bottom: 1px solid gray;
+	padding: 100px 0;
+}
+
+.section3 img{
+	margin: 50px 0;
+	max-width:100%;
+	border-radius: 10px;
+}
+.section3-btn{
+	height: 55px;
+	width:150px;
+	font-size: 20px;
+	line-height: 40px;
+	margin: 20px;
+}
+.section4{
+	background: white;
+	text-align: center;
+	padding: 50px 0;
+}
+.section4 p{
+	color: teal;
+}
+.section4 h2{
+	text-align: initial;
+}
+
+.section4-icon{
+	height:120px;
+	margin: 50px;
+	vertical-align: middle;
+}
+.section4-icon img{
+	max-height:120px;
+}
+footer{
+	background: #1E1E1E;
+	color: white;
+	padding: 20px 0;
+	text-align: center;
+}
+.footer-leftimg img{
+	height: 30px;
+	
+}
+.footer-nav{
+	height: 50px;
+}
+.footer-nav p{
+	display: inline-block;
+	padding:20px 10px;
+}
+.footer-leftimg{
+	padding: 10px 0;
+}
+.footer-txt{
+	padding: 15px 0;
+}
+/***********************************************************************/
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	*{padding: 0;
+	margin: 0;
+	border: 0;
+}
+.nav1{
+	height: 98px;
+}
+.navbar-brand{
+	height: 98px;
+	transition: all 0.03s linear;
+}
+.navbar-logo{
+	height: 100%;
+	width:160px;
+	background-image: url(../img/blurr_logo_sprite_2.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 0px -40px;
+	transition: all 0.1s linear;
+	
+}
+#navbar-collapse{
+	
+	color: gray;
+	
+}
+.xs-icon span{
+	background: black;
+}
+#navbar-collapse ul li{
+	margin-right: 25px;
+	padding-bottom: 10px;
+	padding-top: 50px;
+	text-indent: 10%;
+}
+#navbar-collapse ul li:hover{
+	border-bottom: 1px solid transparent;
+	color: teal;
+}
+.change{
+	background: #000000;
+	
+}
+.change2{
+	padding-top:15px!important;
+	color: white;
+}
+.change3{
+	background-position: 0 0;
+}
+.change4{
+	height: 70px;
+	
+}
+
+header{
+	position: relative;
+	background: url(../img/coachella_2.jpg) no-repeat;
+	background-size: cover;
+}
+.header-txt{
+	position: absolute;
+	top:30px;
+	left: 50%;
+	transform: translateX(-50%);text-align: center;
+	
+}
+
+.phone{
+	height: 400px;
+	width:180px;
+	position: absolute;
+	top:50px;
+	left: 50%;
+	transform: translateX(-50%);
+	position: relative;		
+}
+.phone img:nth-child(1){
+	width: 100%;
+	
+}
+.phoneimg{
+	position: absolute;
+	top:44px;
+	left: 11px;
+	z-index: 100;
+	width: 88%;
+}
+.head-btn{
+	height: 35px;
+	width:150px;
+	font-size: 16px;
+	position: absolute;
+	left: 50%;
+	bottom:50px;
+	transform: translateX(-50%);
+	background: teal;
+	color: white;
+}
+.down{
+	width: 40px;
+	position: absolute;
+	left: 50%;
+	bottom:20px;
+	transform: translateX(-50%);	
+}
+.down>img{
+	width: 100%;
+}
+
+#mymodal{
+	width:80%;
+	padding: 20px;
+	background: white;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	border-radius: 20px;
+	overflow: hidden;
+	font-size: 14px;
+}
+#mymodal input{
+	width:60%;
+	height:35px;
+	border:1px solid lightgray;
+	border-radius:5px;
+	text-align: center;
+}
+#mymodal button{
+	margin-top: 20px;
+	width:60%;
+	height:35px;
+	border:1px solid lightgray;
+	border-radius:5px;
+	text-align: center;
+	background: teal;
+	color: white;
+}
+.section1{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.section1 img{
+	width: 20%;
+	margin: 20px;
+}
+.section2{
+	background: lightgray;
+	padding: 100px 0;
+	text-align: center;
+}
+.section2 img{
+	width: 60%;
+}
+
+.section2-txt{
+	padding: 50px 0;
+}
+.section3{
+	text-align: center;
+	border-bottom: 1px solid gray;
+	padding: 100px 0;
+}
+
+.section3 img{
+	margin: 50px 0;
+	max-width:100%;
+	border-radius: 10px;
+}
+.section3-btn{
+	height: 55px;
+	width:150px;
+	font-size: 20px;
+	line-height: 40px;
+	margin: 20px;
+}
+.section4{
+	background: white;
+	text-align: center;
+	padding: 50px 0;
+}
+.section4 p{
+	color: teal;
+}
+.section4 h2{
+	text-align: initial;
+}
+
+.section4-icon{
+	height:120px;
+	margin: 50px;
+	vertical-align: middle;
+}
+.section4-icon img{
+	max-height:120px;
+}
+footer{
+	background: #1E1E1E;
+	color: white;
+	padding: 20px 0;
+	text-align: center;
+}
+.footer-leftimg img{
+	height: 30px;
+	
+}
+.footer-nav{
+	height: 50px;
+}
+.footer-nav p{
+	display: inline-block;
+	padding:20px 10px;
+}
+.footer-leftimg{
+	padding: 10px 0;
+}
+.footer-txt{
+	padding: 15px 0;
+}
+
+
+
+
+}
+
