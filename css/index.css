@@ -225,7 +225,7 @@ aside{
 	line-height: 32px;
 	background: teal;
 	position: fixed;
-	top:92%;
+	top:70%;
 	right:5px;
 	z-index: 1000;
 	display: none;
@@ -438,25 +438,25 @@ header{
 footer{
 	background: #1E1E1E;
 	color: white;
-	padding: 20px 0;
+	padding: 10px 0;
 	text-align: center;
 }
 .footer-leftimg img{
-	height: 30px;
+	height: 25px;
 	
 }
 .footer-nav{
-	height: 50px;
+	height: 30px;
 }
 .footer-nav p{
 	display: inline-block;
-	padding:20px 10px;
+	padding:10px 10px;
 }
 .footer-leftimg{
-	padding: 10px 0;
+	padding: 0px 0;
 }
 .footer-txt{
-	padding: 15px 0;
+	padding: 10px 0;
 }
 
 
