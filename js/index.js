@@ -7,7 +7,9 @@ $(window).resize(function(){
 	$("header").css("height",h)
 })
 
-
+$("aside").click(function(){
+	$(document).scrollTop(0);
+})
 
 $(document).scroll(function(){
 	var top=$(document).scrollTop();
@@ -26,6 +28,10 @@ $(document).scroll(function(){
 		$(".navbar-brand").removeClass("change4");
 		$(".navbar-header span").css("background","#000000")
 	}
+	if(top>200){
+		$("aside").show();
+	}else{$("aside").hide()}
+	
 })
 
 $(".xs-icon").click(function(){
